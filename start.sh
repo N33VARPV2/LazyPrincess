@@ -1,4 +1,4 @@
-if [ -z $UPSTREAM_REPO ]
+tif [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
   git clone https://github.com/LazyDeveloperr/LazyPrincess.git /LazyPrincess
